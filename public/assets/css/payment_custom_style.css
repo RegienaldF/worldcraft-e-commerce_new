@@ -1,0 +1,349 @@
+
+.service-item {
+    background-color: #F2F5FA;
+    border: 1px solid #C2CBD7;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 13px 18px;
+}
+.service-item-active {
+    border: #1B1464 2px solid;
+    box-sizing: border-box;
+    background: #fff;
+}
+.service-item-active::after {
+    content: '';
+    width: 19px;
+    height: 19px;
+    top: -5px;
+    right: -10px;
+    background-image: url('../img/Group 1285.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    z-index: 50;
+}
+
+.payment-method-subtitle {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #62616A;
+    margin-top: 7px;
+}
+.payment-method-subtitle-2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #62616A;
+}
+
+.payment-item{
+    background-color: #F2F5FA;
+    border: 1px solid #C2CBD7;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 13px 18px;
+    margin-left: 16px;
+}
+
+hr{
+    border-color:#F2F5FA !important;
+}
+/* figma ui kit forms pallete */
+.form-craft{
+    box-sizing: border-box;
+    border: 1px #9199A4 solid !important;
+    padding-left: 17px !important;
+    line-height: 24px !important;
+    font-size: 14px !important;
+    color: #1F1E25;
+    width: 100%;
+    min-height: 50px;
+}
+.form-craft:focus{
+    border: 1px #161DBC solid !important;
+    box-shadow: -5px 5px 14px rgba(33, 38, 147, 0.1);
+    color: #1F1E25;
+}
+.form-craft:disabled{
+    border: 1px #C0BCBC solid !important;
+    background-color: #F1F4F8;
+    color: #9199A4 !important;
+}
+
+.form-craft:hover {
+    border: 1px #161DBC solid !important;
+}
+
+/* checkbox */
+
+.form-craft-check {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #31303E;
+}
+
+.form-craft-check input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.form-craft-check input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background-color:#F2F5FA;
+    border: #C2CBD7 1px solid;
+    border-radius: 2px;
+}
+
+.form-craft-check input[type=checkbox]:hover {
+    background-color: var(--primary-button);
+}
+
+.form-craft-check:hover .remember-me ~ input  {
+    background-color: #ccc;
+}
+
+.form-craft-check input[type=checkbox]:checked:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background-color:#161DBC;
+    border: none;
+    border-radius: 2px;
+}
+.form-craft-check input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 4px;
+    left: 7px;
+}
+
+/* radio buttons */
+.form-craft-radio input[type=radio] {
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.form-craft-radio input[type=radio]:before {
+content: "";
+display: block;
+position: absolute;
+width: 20px;
+height: 20px;
+top: -3px;
+left: -1px;
+background-color:#F2F5FA;
+border: #C2CBD7 1px solid;
+border-radius: 50%;
+}
+.form-craft-radio input[type=radio]:checked:before {
+content: "";
+display: block;
+position: absolute;
+width: 20px;
+height: 20px;
+top: -3px;
+left: -1px;
+background-color:#161DBC;
+border: none;
+border-radius: 50%;
+}
+.form-craft-radio input[type=radio]:checked:after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #ffff;
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    border-radius: 100%;
+}
+/*card elements*/
+.card {
+    -webkit-box-shadow: 0 0 13px 0 rgba(82, 63, 105, 0.05);
+    box-shadow: 0 0 13px 0 rgba(82, 63, 105, 0.05);
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-color: #ebedf2;
+}
+.card .card-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    padding: 12px 25px;
+    border-bottom: 1px solid #ebedf2;
+    min-height: 50px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: transparent;
+}
+.card .card-body {
+    padding: 20px 25px;
+    border-radius: 4px;
+}
+.card .card-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top: 1px solid #ebedf2;
+    background-color: transparent;
+    padding: 12px 25px;
+}
+.card-bordered {
+    border: 1px solid #ebedf2;
+}
+.summary_header{
+    margin-bottom: 31px;
+}
+.summary-body{
+    margin-bottom:31px;
+}
+.summary-footer{
+    position: relative;
+}
+.float-right {
+    float: right !important;
+}
+.order-upload-receipt-title {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1F1E25;
+}
+
+.order-upload-receipt-subtitle {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #31303E;
+
+    margin-bottom: 0.5rem;
+}
+
+.active-payment {
+    border: #1B1464 2px solid;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+}
+.active-payment::after {
+    content: '';
+    width: 19px;
+    height: 19px;
+    top: -5px;
+    right: -10px;
+    background-image: url('../img/Group\ 1285.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    z-index: 50;
+}
+.order-upload-receipt-payment-gateway {
+    padding: 1rem;
+    width: 261px;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 21px rgba(35, 38, 63, 0.1);
+    border-radius: 5px;
+}
+
+.order-upload-receipt-label {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #62616A;
+    text-transform: uppercase;
+}
+
+.order-upload-receipt-details {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #0C0736;
+}
+
+.order-details-uploaded-images-label {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #9199A4;
+}
+.btn-place-order {
+    background-color: #10865C;
+    color: #FFF;
+    border: 1px solid #10865C;
+    border-radius: 0;
+    width: auto;
+    height: 50px;
+    line-height: 1rem;
+}
+
+.btn-place-order-disabled {
+    background-color: #9199A4;
+    color: #FFF;
+    border: 1px solid #9199A4;
+    border-radius: 0;
+    width: auto;
+    height: 50px;
+    line-height: 1rem;
+}

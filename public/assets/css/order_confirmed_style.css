@@ -1,0 +1,219 @@
+.steps-container {
+    padding: 2rem;
+    width: 100%;
+    height: 122px;
+    border: 1px solid #E3EAF2;
+}
+.card-tab-active {
+    background: #ffffff !important;
+    font-weight: 600;
+    color: #1B1464;
+}
+
+.order-confirmed-card {
+    height: 272px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    margin-top: 1.5rem;
+}
+
+.card-body{
+    background: #ffffff;
+}
+
+.order-confirmed-title {
+    font-family: "Sen", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 46px;
+    color: #0C0736;
+}
+
+.order-confirmed-subtitle {
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9199A4;
+}
+
+.card-customer-order-title {
+    height: 40px;
+    padding: 0;
+    border-bottom: 3px solid #D71921;
+
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F1E1E;
+}
+
+.table-order-head {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1E25;
+}
+
+.table-order-data {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #31303E;
+}
+
+.w-35 {
+    width: 35% !important;
+}
+
+.table-image {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+}
+
+.table-header-2 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1E25;
+}
+
+.table-r {
+    border-bottom: 1px solid #E9F1FC;
+}
+
+.order-summary-title {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1E25;
+}
+
+.order-summary-price {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #31303E;
+}
+
+.order-summary-1 {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #C0BCBC;
+}
+
+.order-summary-price-total {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #D71921;
+}
+
+.border-primary{
+    border-bottom: #D71921 3px solid;
+}
+.payment-method-subtitle {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #62616A;
+    margin-top: 7px;
+}
+
+.btn-craft-primary-nopadding {
+    background-color: #D73019;
+    color: #FFFFFF !important;
+    /* box-shadow: -10px 10px 29px rgba(215, 48, 25, 0.2); */
+    min-width: 128px !important;
+    border: none !important;
+    line-height: 2rem;
+    border-radius: 0 !important;
+}
+
+.cart-craft-cash-in {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #62616A;
+}
+
+
+.cart-craft-cash-in-amount {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0C0736;
+}
+
+.card-craft-min-height {
+    min-height: 515px;
+}
+
+.craft-purchase-history-image {
+    height: 72px;
+    width: 72px;
+    object-fit: cover;
+}
+
+.craft-purchase-history-name {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #31303E;
+}
+
+.craft-purchase-history-quantity {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: right;
+}
+
+.craft-purchase-history-price {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: right;
+    color: #31303E;
+}
+
+.craft-purchase-history-pickup-time {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    color: #10865C;
+}
+
